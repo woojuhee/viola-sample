@@ -7,7 +7,7 @@ metadata:
     component: ks-sample-dev
     tier: backend
   name: ks-sample-dev
-  namespace: kubesphere-sample-dev
+  namespace: ibk
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
@@ -62,7 +62,7 @@ metadata:
     app: kubesphere
     component: ks-sample-dev
   name: ks-sample-dev
-  namespace: kubesphere-sample-dev
+  namespace: ibk
 spec:
   ports:
     - name: http
