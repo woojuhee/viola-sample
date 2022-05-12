@@ -14,6 +14,6 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String sayHello() {
-        return "IBK POC";
+        return "IBK 시연환경입니다";
     }
 }
